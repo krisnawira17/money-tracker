@@ -11,7 +11,7 @@ function page() {
   }
 
   return (
-    <div className="flex flex-col p-4 gap-4">
+    <div className="flex flex-col p-6 gap-4">
       <div className="flex flex-col ">
         <h1 className="font-bold text-2xl text-primary">Welcome Back, User!</h1>
         <h2 className="text-subText">Manage your personal finance here</h2>
@@ -32,6 +32,8 @@ function page() {
           <p className="font-bold text-2xl">{formatMoney(2500000)}</p>
         </div>
       </div>
+
+        
     </div>
   );
 }
